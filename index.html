@@ -1,32 +1,49 @@
-<!--Main Code-->
+<!----  FreeWebTools Main Page
+* CATATAN UNTUK KONTRIBUTOR
+* Baca komentar pada kode Html sebelum mengubahnya
+* Pastikan anda berdiskusi dengan saya (Indra) sebelum mengubah apapun di file Html ini
+-->
 <!DOCTYPE html>
 <head>
+    <!----Informasi Website-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FreeWebTools Dashboard</title>
      <link href="res/img/favicon.png" rel="icon">
      <link href="res/img/apple-touch-icon.png" rel="apple-touch-icon">
      <meta http-equiv="X-UA-Compatible" content="IE=7">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
+     <meta name="description" content="FreeWebTools adalah situs web yang menyediakan berbagai alat.">
+     <meta name="keywords" content="web">
 
 </head>
 <body>
+<!---Navigasi-->
+  </div></div>
     <div class="container py-3">
         <header>
             <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-                    <img src="res/img/favicon.png">
-                    <span class="fs-4">FreeWebTools</span>
-                </a>
-    
+                <img src="res/img/favicon.png"><span class="fs-4">FreeWebTools</span></a>
                 <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Beranda</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#why">Keunggulan</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#category">Donasi</a>
-                    <a class="py-2 link-body-emphasis text-decoration-none" href="#">Github</a>
-                </nav>
-            </div>
-    </div>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#jelajahi">Jelajahi</a>
+                    <a class="py-2 link-body-emphasis text-decoration-none" href="#pertanyaan">FAQ</a>
+                </nav></div></div>
+<!-----Pemberitahuan Event/Update----->
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <h3>Apa yang baru ?</h3>
+                    <i>FreeWebTools v1.2.0</i>
+                    <ul>
+                        <li>Penambahan dark mode (Bertahap)😎</li>
+                        <li>UI yang didesain ulang 💎</li>
+                        <li>Alat alat baru 🛠</li>
+                    </ul>
+                    <p>Pesan ini nantinya akan selalu diperbarui setiap adanya versi terbaru/setiap event event tertentu.<br>
+                        Lihat daftar update terbaru di <a href="changelog.html">sini</a>
+                    </p>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+<!-----Hero----->
     <div class="px-4 py-5 my-5 text-center">
         <img src="res/img/apple-touch-icon.png">
         <h1 class="display-5 fw-bold text-body-emphasis">Selamat datang di FreeWebTools !</h1>
@@ -34,237 +51,236 @@
             <p class="lead mb-4">FreeWebTools adalah website yang menyediakan berbagai alat gratis yang dapat anda akses 
                 melalui browser web.</p>
                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3" href="#category">Jelajahi</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Grup Whatsapp</button>
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href="#jelajahi">Jelajahi</a></button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="">Grup Whatsapp</a></button>
             </div>
         </div>
-    </div>
-    <div class="text-bg-success">
-        <h3>Apa yang baru ?</h3>
-        <i>FreeWebTools v1.2.0</i>
-        <ul>
-            <li>Penambahan dark mode (Bertahap)😎</li>
-            <li>UI yang didesain ulang 💎</li>
-            <li>Alat alat baru 🛠</li>
-        </ul>
-        <p>Pesan ini nantinya akan selalu diperbarui setiap adanya versi terbaru/setiap event event tertentu.<br>
-            Lihat daftar update terbaru di <a href="changelog.html">sini</a>
-        </p>
-    </div>
-    <br>
+    </div><!-----Keunggulan FreeWebTools----->
     <div class="ac-shadowtext" id="why">
-        <h2>Keunggulan</h2>
-        <span>Keunggulan</span>
-        <p>Website ini memiliki berbagai keunggulan, yaitu :</p>
-    </div>
+        <h2>Keunggulan</h2><span>Keunggulan</span>
+        <p>Website ini memiliki berbagai keunggulan, yaitu :</p></div>
     <div class="row" align="center" >
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
           <h2 class="fw-normal">Mudah</h2>
           <p>Anda dapat mengakses FreeWebTools kapan saja, dimana saja.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+          <p><a class="btn btn-secondary" href="#pertanyaan">Detail &raquo;</a></p>
+        </div><div class="col-lg-4">
           <h2 class="fw-normal">Lengkap</h2>
           <p>FreeWebTools memiliki banyak alat alat yang terdiri dari beberapa kategori.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+          <p><a class="btn btn-secondary" href="#pertanyaan">Detail &raquo;</a></p></div>
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
           <h2 class="fw-normal">Gratis</h2>
           <p>Sebagian besar alat di FreeWebTools gratis.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-    <hr class="border-bottom">
-    <div id="category">
-        <div class="ac-shadowtext">
-            <h2>Jelajahi</h2>
-            <span>Jelajahi</span>
-        </div>
+          <p><a class="btn btn-secondary" href="#pertanyaan">Detail &raquo;</a></p></div></div><hr>
+<!-----Jelajahi----->
+    <div>
+        <div class="ac-shadowtext"id="jelajahi"><h2>Jelajahi</h2><span>Jelajahi</span></div>
         <p align="center">Temukan berbagai alat, dapatkan berita, lihat event, dan lainnya.</p>
         <div align="center">
             <h3>Hai Selamat Datang, Semoga Harimu Menyenangkan ! </h3><br>
             <b>Waktu Sekarang</b></div>
-            <div class="clocki">
-                <div class="box">
-                    <p id="tahun"></p>
-                </div>
-                <div class="box">
-                    <p id="bulan"></p>
-                </div>
-                <div class="box">
-                    <p id="tanggal"></p>
-                </div><br>
-            </div>
-            <div class="clock">
-                <div class="box">
-                    <p id="jam"></p>
-                </div>
-                <div class="box">
-                    <p id="menit"></p>
-                </div>
-                <div class="box">
-                    <p id="detik"></p>
-                </div>
-            </div>
-        <section id="stats-counter" class="stats-counter">
+                <div class="clocki"><div class="box"><p id="tahun"></p></div><div class="box"><p id="bulan"></p></div><div class="box"><p id="tanggal"></p></div><br></div>
+                <div class="clock"><div class="box"><p id="jam"></p></div><div class="box"><p id="menit"></p></div><div class="box"><p id="detik"></p></div></div>
         <div class="container">
-        <h5>Developer</h5>
-        <ul>
-            <a href="res/sha256.html"><li>SHA - 256 Generator</li></a>
-            <a href="res/htmlparser.html"><li>HTML Formatter</li></a>
-            <a href="res/cssparser.html"><li>CSS Formatter</li></a>
-            <a href="res/jsparser.html"><li>JS Formatter</li></a>
-            <a href="res/loremipsum.html"><li>Lorem Ipsum Generator</li></a>
-            <a href="res/base64.html"><li>Decoder & Encoder Teks</li></a>
-        </ul>
-        </div>
-<div class="container">
-        <h5>Cari</h5>
-       <ul>
-            <a href="res/group.html"><li>Grup WA/Telegram</li></a>
-            <a href="res/contact.html"><li>Kontak</li></a>
-            <a href="res/pinterest.html"><li>Pinterest</li></a>
-            <a href="res/iklanku.html"><li>Pusat Iklan</li></a>
-        </ul>
-    </div>
-    <div class="container">
-        <h5>Produktifitas</h5>
-        <ul>
-            <a href="res/cgpt.html"><li>ChatGPT</li></a>
-            <a href="res/news.html"><li>Berita</li></a>
-            <a href="res/weather.html"><li>Cuaca</li></a>
-            <a href="res/dalle.html"><li>DALL - E</li></a>
-        </ul>
-    </div>
-    <div class="container">
-        <h5>Hiburan</h5>
-        <ul>
-            <a href="res/tictactoe.html"><li>Tic Tac Toe</li></a>
-            <a href="res/WoF.html"><li>Wheel of Fortune</li></a>
-            <a href="res/OnlineTV.html"><li>TV Online</li></a>
-            <a href="res/Kuis.html"><li>Kuis</li></a>
-            <a href="res/UjianSekolah.html"><li>Ujian Sekolah Simulator</li>
-            <a href="res/Quotes.html"><li>Quotes</li></a>
-        </ul>
-    </div>
-
-    <div class="container">
-        <h5>Test & Benchmark</h5>
-        <ul>
+            <h2>Kategori</h2>
+            <p>Temukan alat alat dengan mudah.</p>
+          <div class="bd-example-snippet bd-code-snippet"><div class="bd-example m-0 border-0">
+            <nav>
+              <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-dev-tab" data-bs-toggle="tab" data-bs-target="#nav-dev" type="button" role="tab" aria-controls="nav-dev" aria-selected="true">Developer</button>
+                <button class="nav-link" id="nav-search-tab" data-bs-toggle="tab" data-bs-target="#nav-search" type="button" role="tab" aria-controls="nav-search" aria-selected="false">Cari</button>
+                <button class="nav-link" id="nav-productivity-tab" data-bs-toggle="tab" data-bs-target="#nav-productivity" type="button" role="tab" aria-controls="nav-productivity" aria-selected="false">Produktifitas</button>
+                <button class="nav-link" id="nav-fun-tab" data-bs-toggle="tab" data-bs-target="#nav-fun" type="button" role="tab" aria-controls="nav-fun" aria-selected="false">Hiburan</button>
+                <button class="nav-link" id="nav-test-tab" data-bs-toggle="tab" data-bs-target="#nav-test" type="button" role="tab" aria-controls="nav-test" aria-selected="false">Testing</button>
+                <button class="nav-link" id="nav-3rd-tab" data-bs-toggle="tab" data-bs-target="#nav-3rd" type="button" role="tab" aria-controls="nav-3rd" aria-selected="false">Pihak Ketiga</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-dev" role="tabpanel" aria-labelledby="nav-dev-tab">
+                <ul>
+                  <a href="res/sha256.html"><li>SHA - 256 Generator</li></a>
+                  <a href="res/htmlparser.html"><li>HTML Formatter</li></a>
+                  <a href="res/cssparser.html"><li>CSS Formatter</li></a>
+                  <a href="res/jsparser.html"><li>JS Formatter</li></a>
+                  <a href="res/loremipsum.html"><li>Lorem Ipsum Generator</li></a>
+                  <a href="res/base64.html"><li>Decoder & Encoder Teks</li></a>
+              </ul>
+            </div>
+              <div class="tab-pane fade" id="nav-search" role="tabpanel" aria-labelledby="nav-search-tab">
+                <ul>
+                  <a href="res/group.html"><li>Grup WA/Telegram</li></a>
+                  <a href="res/contact.html"><li>Kontak</li></a>
+                  <a href="res/pinterest.html"><li>Pinterest</li></a>
+                  <a href="res/iklanku.html"><li>Pusat Iklan</li></a>
+              </ul>
+            </div>
+              <div class="tab-pane fade" id="nav-productivity" role="tabpanel" aria-labelledby="nav-productivity-tab">
+                <ul>
+                  <a href="res/cgpt.html"><li>AI ChatBot</li></a>
+                  <a href="res/news.html"><li>Berita</li></a>
+                  <a href="res/weather.html"><li>Cuaca</li></a>
+                  <a href="res/dalle.html"><li>Pembuat Gambar AI</li></a>
+                  <a href="res/kalkulator.html"><li>Kalkulator</li></a>
+              </ul>
+            </div>
+              <div class="tab-pane fade" id="nav-fun" role="tabpanel" aria-labelledby="nav-fun-tab">
+                <ul>
+                  <a href="res/tictactoe.html"><li>Tic Tac Toe</li></a>
+                  <a href="res/wof.html"><li>Wheel of Fortune</li></a>
+                  <a href="res/onlinetv.html"><li>TV Online</li></a>
+                  <a href="res/kuis.html"><li>Kuis</li></a>
+                  <a href="res/ujiansekolah.html"><li>Ujian Sekolah Simulator</li>
+                  <a href="res/quotes.html"><li>Quotes</li></a>
+              </ul></div><div class="tab-pane fade" id="nav-test" role="tabpanel" aria-labelledby="nav-test-tab">
+                <ul>
             <a href=""><li>Speedtest</li></a>
             <a href="res/webcam.html"><li>Webcam Test</li></a>
             <a href="res/webcam.html"><li>Microphone Test</li></a>
         </ul>
-    </div><br>
+              </div>
+              <div class="tab-pane fade" id="nav-3rd" role="tabpanel" aria-labelledby="nav-3rd-tab">
+                <ul>
+                  <a href="https://ai.prinsh.com"><li>PrinshAI</li></a>
+                  <a href="https://haxor.my.id"><li>Haxor Uploader</li></a>
+                  <a href=""><li>Test Email</li></a>
+              </ul>
+              </div>
+            </div>
+            </div></div>
+            <b>Progress alat yang telah selesai dibuat</b>
+            <div class="progress mb-3" role="progressbar" aria-label="Info example with label" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar text-bg-info w-50">45%</div>
+            </div>
+            <b>Jumlah selesai dibuat : 11</b><br>
+            <b>Jumlah belum selesai dibuat : 12</b><br>
+            <i>Data ini tidak termasuk alat pihak ketiga</i>
 
-    <div class="container">
-        <h5>Pihak Ketiga</h5>
-        <ul>
-            <a href="https://ai.prinsh.com"><li>PrinshAI</li></a>
-            <a href="https://haxor.my.id"><li>Haxor Uploader</li></a>
-            <a href=""><li>Test Email</li></a>
-        </ul>
-    </div><br>
+            <div align="right">
+          <h2>Rekomendasi</h2>
+          <p>Coba alat alat yang direkomendasikan. mungkin beberapa alat yang direkomendasi tidak berfungsi dengan benar.</p>
+</div>
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-primary-emphasis">Produktifitas</strong>
+        <h3 class="mb-0">Lebih produktif dengan AI</h3>
+        <p class="card-text mb-auto">Gunakan AI untuk mencari ide, membuat ilustrasi, dan sebagainya</p>
+        <button class="btn btn-outline-secondary" type="button">AI Chatbot</button>
+        <button class="btn btn-outline-secondary" type="button">Pembuat Gambar AI</button>
+      </div><div class="col-auto d-none d-lg-block"></div></div></div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis">Developer</strong>
+            <h3 class="mb-0">Web Developer wajib pakai ini</h3>
+            <p class="mb-auto">Permudah web development dengan alat berikut</p>
+            <button class="btn btn-outline-secondary" type="button">HTML Formatter</button>
+            <button class="btn btn-outline-secondary" type="button">CSS Formatter</button>
+            <button class="btn btn-outline-secondary" type="button">JavaScript Formatter</button>
+            </div><div class="col-auto d-none d-lg-block"></div></div> </div></div>
 
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-        <symbol id="check2" viewBox="0 0 16 16">
-            <path
-                d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
-        </symbol>
-        <symbol id="circle-half" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
-        </symbol>
-        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-            <path
-                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
-            <path
-                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
-        </symbol>
-        <symbol id="sun-fill" viewBox="0 0 16 16">
-            <path
-                d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-        </symbol>
-    </svg>
-
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
-            aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
-            <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
-                <use href="#circle-half"></use>
-            </svg>
-            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-            <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
-                    aria-pressed="false">
-                    <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-                        <use href="#sun-fill"></use>
-                    </svg>
-                    Light
-                    <svg class="bi ms-auto d-none" width="1em" height="1em">
-                        <use href="#check2"></use>
-                    </svg>
-                </button>
-            </li>
-            <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
-                    aria-pressed="false">
-                    <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-                        <use href="#moon-stars-fill"></use>
-                    </svg>
-                    Dark
-                    <svg class="bi ms-auto d-none" width="1em" height="1em">
-                        <use href="#check2"></use>
-                    </svg>
-                </button>
-            </li>
-            <li>
-                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
-                    aria-pressed="true">
-                    <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-                        <use href="#circle-half"></use>
-                    </svg>
-                    Auto
-                    <svg class="bi ms-auto d-none" width="1em" height="1em">
-                        <use href="#check2"></use>
-                    </svg>
-                </button>
-            </li>
-        </ul>
-    </div>
-
+          <h2>Berita</h2>
+          <p>Lihat berita terbaru yang sedang tren.</p>
+      </div>
+                  <div class="row mb-2">
+                      <div class="col-md-6">
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                          <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary-emphasis">FreeWebTools</strong>
+                            <h3 class="mb-0">FreeWebTools v1.2.0 : Berbagai perubahan besar</h3>
+                            <div class="mb-1 text-body-secondary">8 Desember 2023</div>
+                            <p class="card-text mb-auto">Setelah berbagai perubahan, akhirnya FreeWebTools telah mencapai versi 1.2.0</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                              Lebih lanjut
+                            </a></div><div class="col-auto d-none d-lg-block"></div></div></div>
+                      <div class="col-md-6">
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                          <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success-emphasis">FreeWebTools</strong>
+                            <h3 class="mb-0">Proyek FreeWebTools Next : Nama baru, Fitur baru, dan lainnya</h3>
+                            <div class="mb-1 text-body-secondary">8 Desember 2023</div>
+                            <p class="mb-auto">Pembangunan FreeWebTools v2.0 sedang berlangsung, penambahan berbagai fitur baru dan perubahan nama akan dilakukan.</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                              Lebih lanjut
+                            </a></div><div class="col-auto d-none d-lg-block"></div></div> </div></div>
+<!-----Pertanyaan yang sering diajukan----->
+        <div class="ac-shadowtext"id="pertanyaan">
+            <h2>Pertanyaan</h2>
+            <span>Pertanyaan</span>
+            <p>Berikut adalah beberapa pertanyaan yang sering diajukan oleh pengguna FreeWebTools</p>
+        </div><div>
+            <div class="bd-example-snippet bd-code-snippet"><div class="bd-example m-0 border-0">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h4 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Di perangkat apa saja saya dapat mengakses FreeWebTools ?
+                  </button>
+                </h4>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Anda dapat mengakses FreeWebTools dari perangkat apa saja, asalkan perangkat tersebut memiliki browser web yang terinstal.</p>
+                </div></div></div>
+              <div class="accordion-item">
+                <h4 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Seberapa lengkap alat alat yang ada di FreeWebTools
+                  </button>
+                </h4>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Sangat lengkap.</strong><p> FreeWebTools memiliki 100+ alat yang terdiri dari beberapa kategori</p>
+                  </div></div></div>
+              <div class="accordion-item">
+                <h4 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Apakah semua alat di FreeWebTools gratis ?
+                  </button>
+                </h4>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Tidak.</strong><p>Saya membuat alat di FreeWebTools gratis atau tidak tergantung kesulitan pembuatannya.</p>
+                  </div></div></div></div></div></div><br>
+<!----Tombol Dark Mode/Light Mode----->
+<!---Icon untuk tombolnya---><svg xmlns="http://www.w3.org/2000/svg" class="d-none"><symbol id="check2" viewBox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" /></symbol><symbol id="circle-half" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" /></symbol><symbol id="moon-stars-fill" viewBox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" /><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" /></symbol><symbol id="sun-fill" viewBox="0 0 16 16"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" /></symbol></svg>
+                <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle"><button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)"><svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg><span class="visually-hidden" id="bd-theme-text">Toggle theme</span></button><ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text"><li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false"><svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>Light<svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg></button></li><li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false"><svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>Dark<svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg></button></li><li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true"><svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>Auto<svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg></button></li></ul> </div>
+<!-----Preloader----->
     <div id="preloader"></div>
 </body>
 <br>
-
-<div class="container">
+<!-----Footer----->
+<div class="container" align="center">
     <footer class="py-3 my-4">
-        <h2 align="center">FreeWebTools<span>v1.2.0</span></h2>
+      <h2>FreeWebTools</h2>
         <ul class="nav justify-content-center pb-3 mb-3">
             <li class="nav-item"><a href="https://saweria.co" class="nav-link px-2 text-body-secondary">Donasi</a></li>
             <li class="nav-item"><a href="https://wa.me/6289672751060" class="nav-link px-2 text-body-secondary">Pasang Iklan</a></li>
             <li class="nav-item"><a href="https://github.com/indra87g" class="nav-link px-2 text-body-secondary">Github</a></li>
             <li class="nav-item"><a href="res/changelog.html" class="nav-link px-2 text-body-secondary">Changelog</a></li>
-            <li class="nav-item"><a href="res/example.html" class="nav-link px-2 text-body-secondary">Event</a></li>
+            <li class="nav-item"><a href="res/example.html" class="nav-link px-2 text-body-secondary">Source Code</a></li>
         </ul>
-        <h3>Kontributor</h3>
-        <p>Berikut adalah orang orang/komunitas yang ikut serta dalam pembangunan FreeWebTools</p>
-        <b>indra87g (indra87g.github.io) - Web Developer</b><br>
-        <b>Bootstrap (getbootstrap.com) - Penyedia template css responsive</b><br>
-        <i>Terima kasih atas supportnya</i><br>
-        <h3>Iklan</h3>
-        <a href="https://tronminingfarm.com/?ref=TwinightWheel50" target="_blank"><img
-            src="https://tronminingfarm.com/images/banners/728.gif"></a><br>
-            <i>Inilah contoh iklan jika dipasang ke website ini</i>
         <hr class="border-bottom">
-        <p class="text-center text-body-secondary">&copy; 2023 FreeWebTools | Licensed under GNU GPL</p>
+        <h3>Kontributor</h3>
+<p>Berikut adalah orang orang/komunitas yang ikut serta dalam pembangunan FreeWebTools</p>
+<b>indra87g (indra87g.github.io) - Web Developer</b><br>
+<b>Bootstrap (getbootstrap.com) - Penyedia template css responsive</b><br>
+<i>Terima kasih atas supportnya</i><br>
+<h3>Iklan</h3>
+<a href="https://tronminingfarm.com/?ref=TwinightWheel50" target="_blank"><img
+    src="https://tronminingfarm.com/images/banners/728.gif"></a><br>
+    <i>Inilah contoh iklan jika dipasang ke website ini</i>
+<hr class="border-bottom">
+<p class="text-center text-body-secondary">&copy; 2023 FreeWebTools | Licensed under GNU GPL</p>
     </footer>
 </div>
 
+
+
+<!-----Script dan Style----->
 <link rel="stylesheet" href="res/css/main.css">
 <link rel="stylesheet" href="res/css/bootstrap.min.css">
 <link rel="stylesheet" href="res/css/bootstrap-utilities.css">
@@ -272,6 +288,5 @@
 
 <script src="res/js/color-modes.js"></script>
 <script src="res/js/main.js"></script>
-
 <script src="res/js/purecounter.js"></script>
 <script src="res/js/bootstrap.bundle.min.js"></script>
