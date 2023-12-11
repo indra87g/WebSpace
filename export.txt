@@ -1,0 +1,30 @@
+Github File Import Log
+----------------------
+
+v1.2.1
+Commit by @indra87g
+===================
+
+export.txt
+index.html
+res/changelog.html
+res/galeriai.html
+res/html/alam.html
+res/html/ilustrasi.html
+res/html/imajinasi.html
+res/img/BumiHancur.jpg
+res/img/InvasiAlien.jpg
+res/img/Mars2070.jpg
+res/img/Robot1970.jpg
+res/img/SaturnusBumi.jpg
+res/img/icon.png
+-----------------------
+
+v1.2.0
+Commit by @indra87g
+===================
+
+All file
+------------------------
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
